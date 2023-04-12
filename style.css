@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #ffeeeb;
+  }
+  
+  body {
+    background: #1B1B1B;
+    padding-top: 100px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  header img {
+    height: 36px;
+    margin-right: 16px;
+  }
+  
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #CCB0AB;
+  }
+  
+  .container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .title {
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  form {
+    display: flex;
+    background: #000000;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 40px;
+  }
+  
+  form input {
+    width: 280px;
+    font-size: 24px;
+    background: #ffffff;
+    color: #0a0a0a;
+    border: none;
+    border-radius: 6px;
+    border-bottom: 2px solid #CCB0AB;
+    padding: 8px;
+  }
+  
+  form button {
+    width: 200px;
+    background: #CCB0AB;
+    color: #1B1B1B;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  form button:hover {
+    background: #ac8f8a;
+  }
+  
+  table {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  table th {
+    font-family: 'Playfair Display', serif;
+    color: #CCB0AB;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #57536d;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  table td img {
+    height: 30px;
+  }
+  
+  
