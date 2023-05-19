@@ -39,7 +39,7 @@ exports.default = function () {
     gulp.series(compilaSass)
   );
   gulp.watch(
-    "./source/sFcripts/*.js",
+    "./source/scripts/*.js",
     { ignoreInitial: false },
     gulp.series(comprimeJavaScript)
   );
